@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+API Slim PHP
+{% endblock %}
+
+{% block content %}
+    <h2 class="text-center mb-4">Ejemplo Documentacion API Slim PHP</h2>
+
+    <div class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Autor: {{ Nombre }}</h5>
+                        <p class="card-text text-muted">{{ Mensaje }} </p>
+                        <a href="#" class="btn btn-primary">Ver Documentacion</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+{% endblock %}
